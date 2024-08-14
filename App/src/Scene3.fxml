@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1854.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Scene3Controller">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1860.0" prefWidth="700.0">
+         <children>
+            <Label layoutX="180.0" layoutY="22.0" prefHeight="56.0" prefWidth="341.0" text="Super Shopping" textAlignment="CENTER">
+               <font>
+                  <Font name="Cooper Black" size="40.0" />
+               </font>
+            </Label>
+            <Label layoutX="70.0" layoutY="101.0" text="Shirts">
+               <font>
+                  <Font name="Elephant" size="20.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="shirt1" fitHeight="250.0" fitWidth="188.0" layoutX="18.0" layoutY="147.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/shirt1.jpg" />
+               </image>
+            </ImageView>
+            <Label fx:id="shirtName1" layoutX="207.0" layoutY="196.0" text="Muscle fit T-shirt">
+               <font>
+                  <Font name="Dubai Regular" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="207.0" layoutY="228.0" text="Color:">
+               <font>
+                  <Font name="Dubai Regular" size="18.0" />
+               </font>
+            </Label>
+            <ChoiceBox fx:id="Colorpick" layoutX="201.0" layoutY="260.0" prefHeight="25.0" prefWidth="129.0" />
+            <Label layoutX="207.0" layoutY="285.0" text="Size:">
+               <font>
+                  <Font name="Dubai Regular" size="18.0" />
+               </font>
+            </Label>
+            <ChoiceBox fx:id="SizePick" layoutX="201.0" layoutY="317.0" prefHeight="25.0" prefWidth="68.0" />
+            <Label layoutX="396.0" layoutY="197.0" text="Amount:">
+               <font>
+                  <Font name="Dubai Regular" size="18.0" />
+               </font>
+            </Label>
+            <Spinner fx:id="amountspn" layoutX="465.0" layoutY="201.0" prefHeight="25.0" prefWidth="100.0" />
+            <Label layoutX="396.0" layoutY="228.0" text="Total: $">
+               <font>
+                  <Font name="Dubai Regular" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="total" layoutX="452.0" layoutY="227.0" prefHeight="35.0" prefWidth="53.0" text="25.00">
+               <font>
+                  <Font name="Dubai Regular" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="addToCartBtn" layoutX="396.0" layoutY="277.0" mnemonicParsing="false" onAction="#addToCart" text="Add to cart">
+               <font>
+                  <Font name="Dubai Regular" size="20.0" />
+               </font>
+            </Button>
+            <Label fx:id="alertmsg" layoutX="521.0" layoutY="289.0" prefHeight="25.0" prefWidth="162.0">
+               <font>
+                  <Font name="Dubai Regular" size="14.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="shirt2" fitHeight="250.0" fitWidth="188.0" layoutX="18.0" layoutY="408.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/shirt4.jpg" />
+               </image>
+            </ImageView>
+            <Label fx:id="shirtName2" layoutX="205.0" layoutY="458.0" text="Regular fit T-shirt">
+               <font>
+                  <Font name="Dubai Regular" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="207.0" layoutY="490.0" text="Color:">
+               <font>
+                  <Font name="Dubai Regular" size="18.0" />
+               </font>
+            </Label>
+            <ChoiceBox fx:id="Colorpick2" layoutX="201.0" layoutY="521.0" prefHeight="25.0" prefWidth="129.0" />
+            <Label layoutX="207.0" layoutY="546.0" text="Size:">
+               <font>
+                  <Font name="Dubai Regular" size="18.0" />
+               </font>
+            </Label>
+            <ChoiceBox fx:id="SizePick2" layoutX="201.0" layoutY="578.0" prefHeight="25.0" prefWidth="68.0" />
+            <Label layoutX="396.0" layoutY="458.0" text="Amount:">
+               <font>
+                  <Font name="Dubai Regular" size="18.0" />
+               </font>
+            </Label>
+            <Spinner fx:id="amountspn2" layoutX="465.0" layoutY="462.0" prefHeight="25.0" prefWidth="100.0" />
+            <Label layoutX="396.0" layoutY="490.0" text="Total: $">
+               <font>
+                  <Font name="Dubai Regular" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="total2" layoutX="452.0" layoutY="489.0" prefHeight="35.0" prefWidth="53.0" text="25.00">
+               <font>
+                  <Font name="Dubai Regular" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="addToCartBtn2" layoutX="393.0" layoutY="546.0" mnemonicParsing="false" onAction="#addToCart2" text="Add to cart">
+               <font>
+                  <Font name="Dubai Regular" size="20.0" />
+               </font>
+            </Button>
+            <ImageView fx:id="pant1" fitHeight="250.0" fitWidth="188.0" layoutX="18.0" layoutY="735.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/pants1.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="19.0" layoutY="681.0" text="Pants and Jeans">
+               <font>
+                  <Font name="Elephant" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="pantsName1" layoutX="205.0" layoutY="769.0" text="Basic chinos">
+               <font>
+                  <Font name="Dubai Regular" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="207.0" layoutY="801.0" text="Color:">
+               <font>
+                  <Font name="Dubai Regular" size="18.0" />
+               </font>
+            </Label>
+            <ChoiceBox fx:id="Colorpick3" layoutX="201.0" layoutY="833.0" prefHeight="25.0" prefWidth="129.0" />
+            <Label layoutX="207.0" layoutY="858.0" text="Size:">
+               <font>
+                  <Font name="Dubai Regular" size="18.0" />
+               </font>
+            </Label>
+            <ChoiceBox fx:id="SizePick3" layoutX="201.0" layoutY="887.0" prefHeight="25.0" prefWidth="68.0" />
+            <Label layoutX="396.0" layoutY="769.0" text="Amount:">
+               <font>
+                  <Font name="Dubai Regular" size="18.0" />
+               </font>
+            </Label>
+            <Spinner fx:id="amountspn3" layoutX="465.0" layoutY="773.0" prefHeight="25.0" prefWidth="100.0" />
+            <Label layoutX="396.0" layoutY="798.0" text="Total: $">
+               <font>
+                  <Font name="Dubai Regular" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="total3" layoutX="452.0" layoutY="797.0" prefHeight="35.0" prefWidth="53.0" text="25.00">
+               <font>
+                  <Font name="Dubai Regular" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="addToCartBtn3" layoutX="393.0" layoutY="850.0" mnemonicParsing="false" onAction="#addToCart3" text="Add to cart">
+               <font>
+                  <Font name="Dubai Regular" size="20.0" />
+               </font>
+            </Button>
+            <ImageView fx:id="pant2" fitHeight="250.0" fitWidth="188.0" layoutX="18.0" layoutY="998.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/pants4.jpg" />
+               </image>
+            </ImageView>
+            <Label fx:id="pantsName2" layoutX="205.0" layoutY="1031.0" text="Denim jeans">
+               <font>
+                  <Font name="Dubai Regular" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="207.0" layoutY="1063.0" text="Color:">
+               <font>
+                  <Font name="Dubai Regular" size="18.0" />
+               </font>
+            </Label>
+            <ChoiceBox fx:id="Colorpick4" layoutX="201.0" layoutY="1095.0" prefHeight="25.0" prefWidth="129.0" />
+            <Label layoutX="207.0" layoutY="1120.0" text="Size:">
+               <font>
+                  <Font name="Dubai Regular" size="18.0" />
+               </font>
+            </Label>
+            <ChoiceBox fx:id="SizePick4" layoutX="201.0" layoutY="1152.0" prefHeight="25.0" prefWidth="68.0" />
+            <Label layoutX="396.0" layoutY="1031.0" text="Amount:">
+               <font>
+                  <Font name="Dubai Regular" size="18.0" />
+               </font>
+            </Label>
+            <Spinner fx:id="amountspn4" layoutX="465.0" layoutY="1035.0" prefHeight="25.0" prefWidth="100.0" />
+            <Label layoutX="396.0" layoutY="1063.0" text="Total: $">
+               <font>
+                  <Font name="Dubai Regular" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="total4" layoutX="452.0" layoutY="1062.0" prefHeight="35.0" prefWidth="53.0" text="25.00">
+               <font>
+                  <Font name="Dubai Regular" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="addToCartBtn4" layoutX="393.0" layoutY="1112.0" mnemonicParsing="false" onAction="#addToCart4" text="Add to cart">
+               <font>
+                  <Font name="Dubai Regular" size="20.0" />
+               </font>
+            </Button>
+            <Label layoutX="70.0" layoutY="1272.0" text="Skirts">
+               <font>
+                  <Font name="Elephant" size="20.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="skirt1" fitHeight="250.0" fitWidth="188.0" layoutX="18.0" layoutY="1314.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/skirt2.jpg" />
+               </image>
+            </ImageView>
+            <Label fx:id="skirtName1" layoutX="208.0" layoutY="1347.0" text="Floral mini skirt">
+               <font>
+                  <Font name="Dubai Regular" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="207.0" layoutY="1379.0" text="Color:">
+               <font>
+                  <Font name="Dubai Regular" size="18.0" />
+               </font>
+            </Label>
+            <ChoiceBox fx:id="Colorpick5" layoutX="201.0" layoutY="1411.0" prefHeight="25.0" prefWidth="129.0" />
+            <Label layoutX="207.0" layoutY="1439.0" text="Size:">
+               <font>
+                  <Font name="Dubai Regular" size="18.0" />
+               </font>
+            </Label>
+            <ChoiceBox fx:id="SizePick5" layoutX="201.0" layoutY="1471.0" prefHeight="25.0" prefWidth="68.0" />
+            <Label layoutX="396.0" layoutY="1347.0" text="Amount:">
+               <font>
+                  <Font name="Dubai Regular" size="18.0" />
+               </font>
+            </Label>
+            <Spinner fx:id="amountspn5" layoutX="462.0" layoutY="1351.0" prefHeight="25.0" prefWidth="100.0" />
+            <Label layoutX="396.0" layoutY="1379.0" text="Total: $">
+               <font>
+                  <Font name="Dubai Regular" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="total5" layoutX="452.0" layoutY="1378.0" prefHeight="35.0" prefWidth="53.0" text="25.00">
+               <font>
+                  <Font name="Dubai Regular" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="addToCartBtn5" layoutX="393.0" layoutY="1431.0" mnemonicParsing="false" onAction="#addToCart5" text="Add to cart">
+               <font>
+                  <Font name="Dubai Regular" size="20.0" />
+               </font>
+            </Button>
+            <ImageView fx:id="skirt2" fitHeight="250.0" fitWidth="188.0" layoutX="18.0" layoutY="1574.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/skirt7.jpg" />
+               </image>
+            </ImageView>
+            <Label fx:id="skirtName2" layoutX="208.0" layoutY="1601.0" text="Denim mini skirt">
+               <font>
+                  <Font name="Dubai Regular" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="207.0" layoutY="1633.0" text="Color:">
+               <font>
+                  <Font name="Dubai Regular" size="18.0" />
+               </font>
+            </Label>
+            <ChoiceBox fx:id="Colorpick6" layoutX="201.0" layoutY="1665.0" prefHeight="25.0" prefWidth="129.0" />
+            <Label layoutX="207.0" layoutY="1690.0" text="Size:">
+               <font>
+                  <Font name="Dubai Regular" size="18.0" />
+               </font>
+            </Label>
+            <ChoiceBox fx:id="SizePick6" layoutX="201.0" layoutY="1722.0" prefHeight="25.0" prefWidth="68.0" />
+            <Label layoutX="393.0" layoutY="1601.0" text="Amount:">
+               <font>
+                  <Font name="Dubai Regular" size="18.0" />
+               </font>
+            </Label>
+            <Spinner fx:id="amountspn6" layoutX="455.0" layoutY="1605.0" prefHeight="25.0" prefWidth="100.0" />
+            <Label layoutX="393.0" layoutY="1633.0" text="Total: $">
+               <font>
+                  <Font name="Dubai Regular" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="total6" layoutX="449.0" layoutY="1632.0" prefHeight="35.0" prefWidth="53.0" text="25.00">
+               <font>
+                  <Font name="Dubai Regular" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="addToCartBtn6" layoutX="393.0" layoutY="1690.0" mnemonicParsing="false" onAction="#addToCart6" text="Add to cart">
+               <font>
+                  <Font name="Dubai Regular" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="backbtn" layoutX="19.0" layoutY="22.0" mnemonicParsing="false" onAction="#goBack" text="Back">
+               <font>
+                  <Font name="Elephant" size="18.0" />
+               </font>
+            </Button>
+            <Label fx:id="alertmsg2" layoutX="521.0" layoutY="558.0" prefHeight="25.0" prefWidth="162.0">
+               <font>
+                  <Font name="Dubai Regular" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="alertmsg3" layoutX="521.0" layoutY="862.0" prefHeight="25.0" prefWidth="162.0">
+               <font>
+                  <Font name="Dubai Regular" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="alertmsg4" layoutX="521.0" layoutY="1124.0" prefHeight="25.0" prefWidth="162.0">
+               <font>
+                  <Font name="Dubai Regular" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="alertmsg5" layoutX="521.0" layoutY="1443.0" prefHeight="25.0" prefWidth="162.0">
+               <font>
+                  <Font name="Dubai Regular" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="alertmsg6" layoutX="521.0" layoutY="1702.0" prefHeight="25.0" prefWidth="162.0">
+               <font>
+                  <Font name="Dubai Regular" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="cartbtn" layoutX="602.0" layoutY="27.0" mnemonicParsing="false" onAction="#goToCart" text="Cart">
+               <font>
+                  <Font name="Elephant" size="18.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+  </content>
+</ScrollPane>

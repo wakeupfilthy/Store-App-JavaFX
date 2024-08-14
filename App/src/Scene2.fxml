@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Scene2Controller">
+   <children>
+      <Label fx:id="welcomemsg" layoutX="35.0" layoutY="107.0" prefHeight="34.0" prefWidth="651.0" textFill="#501e61">
+         <font>
+            <Font name="Dubai Regular" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="clothe" layoutX="34.0" layoutY="154.0" mnemonicParsing="false" onAction="#goToClothes" prefHeight="35.0" prefWidth="191.0" text="Go to Clothing">
+         <font>
+            <Font name="Elephant" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="food" layoutX="34.0" layoutY="365.0" mnemonicParsing="false" onAction="#goToFood" prefHeight="35.0" prefWidth="191.0" text="Go to food">
+         <font>
+            <Font name="Elephant" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="288.0" layoutY="158.0" prefHeight="9.0" prefWidth="290.0" text="Check out the latest fashion" textFill="#165a82">
+         <font>
+            <Font name="Elephant" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="282.0" layoutY="369.0" prefHeight="27.0" prefWidth="341.0" text="Organic products for better health" textFill="#168227">
+         <font>
+            <Font name="Elephant" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="shirt" fitHeight="150.0" fitWidth="146.0" layoutX="34.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/shirt5.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="pant" fitHeight="150.0" fitWidth="108.0" layoutX="188.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/pants4.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="skirt" fitHeight="150.0" fitWidth="200.0" layoutX="360.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/skirt3.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="shirt2" fitHeight="150.0" fitWidth="200.0" layoutX="528.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/shirt4.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="190.0" layoutY="14.0" prefHeight="56.0" prefWidth="341.0" text="Super Shopping" textAlignment="CENTER">
+         <font>
+            <Font name="Cooper Black" size="40.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="sale" fitHeight="97.0" fitWidth="100.0" layoutX="33.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/sale.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cart" fitHeight="56.0" fitWidth="66.0" layoutX="578.0" layoutY="13.0" onMouseClicked="#goToCart" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/shopping%20cart.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="apples" fitHeight="124.0" fitWidth="191.0" layoutX="36.0" layoutY="412.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/apples2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="chicken" fitHeight="114.0" fitWidth="199.0" layoutX="257.0" layoutY="407.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/chicken1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="choco" fitHeight="133.0" fitWidth="141.0" layoutX="495.0" layoutY="397.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/chocolate1.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="cartBtn" layoutX="591.0" layoutY="70.0" mnemonicParsing="false" onAction="#goToCart" text="Cart">
+         <font>
+            <Font name="Dubai Regular" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
